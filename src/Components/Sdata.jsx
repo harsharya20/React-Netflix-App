@@ -20,7 +20,7 @@ const Sdata = [
     {
         sname:'Breaking Bad',
         imgsrc: 'https://wallpapercave.com/w/wp2156334.jpg',
-        title: 'Crime Drama Television Series',
+        title: 'Crime Drama Series',
         link: 'https://www.netflix.com/in/title/70143836'
     },
     {
@@ -28,7 +28,11 @@ const Sdata = [
         imgsrc: 'https://wallpapercave.com/w/wp6196648.jpg',
         title: 'A Netflix Original Series',
         link: 'https://www.netflix.com/in/title/80179190'
-    }
+    },{
+    sname:'Peaky Blinders',
+    imgsrc: 'https://wallpapercave.com/w/wp7709348.jpg',
+    title: 'Historical Crime Drama',
+    link: 'https://www.netflix.com/in/title/80002479'}
 ]
 
 export default Sdata

@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: crimson;
+    background-color: rgb(201, 5, 44);
 }
 
 .heading_style {
@@ -30,13 +30,13 @@
     transition: all 0.4s cubic-bezier(0.175,0,885,0,1);
     width: 21.25%;
     border-radius: 12px;
-    box-shadow: 0px 13px 10px -7px rgb(rgb(240, 209, 209), rgb(241, 240, 177), rgb(247, 138, 171));
+    box-shadow: 0px 10px 10px -7px rgb(217, 239, 247);
     float: left;
 
 }
 
 .card:hover{
-    box-shadow: 0px 30px 18px -8px rgb(rgb(240, 209, 209), rgb(241, 240, 177));
+    box-shadow: 10px 15px 18px -8px rgb(209, 233, 241);
     transform: scale(1.05, 1.05);
 }
 
@@ -48,11 +48,12 @@
 }
 
 .card_info{
-    background-color: aliceblue;
+    color: black;
+    background-color: black;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     padding: 16px 24px 24px 24px;
-    background-color: aliceblue;
+    
 }
 
 .card_category {
@@ -61,15 +62,43 @@
     font-size: 14px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: rgb(0, 140, 187);
-    background-color: aliceblue;
+    color: rgb(233, 13, 13);
+    background-color: black;
 }
 
 .card_title{
     margin-top: 5px;
     margin-bottom: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: aliceblue;
+    background-color: black;
     text-transform: capitalize;
+    color: white;
+   
 }
 
+button{
+    padding: 8px 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.but{
+    background-color: black;
+    margin-left: 70px ;
+}
+
+@media(max-width: 768px){
+    body{
+    display: flex;
+	width: 400px;
+    height: auto;
+    }
+}
